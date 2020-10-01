@@ -1,0 +1,56 @@
+[10:19:03] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[10:19:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:19:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:19:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:19:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[10:19:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[10:19:03] [main/INFO]: Reloading ResourceManager: Default
+[10:19:04] [Worker-Main-4/INFO]: Loaded 7 recipes
+[10:19:05] [Worker-Main-4/INFO]: Loaded 927 advancements
+[10:19:05] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[10:19:05] [Server thread/INFO]: Loading properties
+[10:19:05] [Server thread/INFO]: Default game type: SURVIVAL
+[10:19:05] [Server thread/INFO]: Generating keypair
+[10:19:06] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25572
+[10:19:06] [Server thread/INFO]: Using epoll channel type
+[10:19:06] [Server thread/INFO]: Preparing level "world"
+[10:19:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:19:07] [Server thread/INFO]: Preparing spawn area: 0%
+[10:19:07] [Server thread/INFO]: Preparing spawn area: 0%
+[10:19:07] [Server thread/INFO]: Preparing spawn area: 0%
+[10:19:07] [Server thread/INFO]: Preparing spawn area: 0%
+[10:19:08] [Server thread/INFO]: Time elapsed: 2071 ms
+[10:19:08] [Server thread/INFO]: Done (2.169s)! For help, type "help"
+[10:19:08] [Server thread/INFO]: Starting GS4 status listener
+[10:19:08] [Server thread/INFO]: Thread Query Listener started
+[10:19:08] [Query Listener #1/INFO]: Query running on 0.0.0.0:25658
+[10:20:22] [User Authenticator #1/INFO]: UUID of player Lenacluck is 686939ff-9a3f-4bf8-8ace-ec0e26201c56
+[10:20:23] [Server thread/INFO]: Lenacluck[/124.149.32.121:53483] logged in with entity id 311 at (-316.51532023035145, 64.5625, -335.9911687177507)
+[10:20:23] [Server thread/INFO]: Lenacluck joined the game
+[10:20:53] [Server thread/INFO]: Lenacluck lost connection: Disconnected
+[10:20:53] [Server thread/INFO]: Lenacluck left the game
+[10:22:13] [Server thread/INFO]: Stopping the server
+[10:22:13] [Server thread/INFO]: Stopping server
+[10:22:13] [Server thread/INFO]: Saving players
+[10:22:13] [Server thread/INFO]: Saving worlds
+[10:22:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:22:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:22:15] [Server thread/ERROR]: Failed to save level ./world
+java.io.IOException: Permission denied
+	at java.io.UnixFileSystem.createFileExclusively(Native Method) ~[?:1.8.0_262]
+	at java.io.File.createTempFile(File.java:2026) ~[?:1.8.0_262]
+	at dae$a.a(SourceFile:347) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:576) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.s(SourceFile:601) ~[server.jar:?]
+	at yd.s(SourceFile:556) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.v(SourceFile:709) ~[server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:256) ~[server.jar:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_262]
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:22:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:22:15] [Server thread/INFO]: Thread Query Listener stopped
